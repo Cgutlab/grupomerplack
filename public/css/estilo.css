@@ -1,0 +1,553 @@
+body.login {
+  background-color: #388e3c;
+}
+body.login .container {
+  background-color: white;
+  max-width: 500px;
+  margin-top: 100px;
+  border-radius: 4px;
+  padding: 60px 60px 10px 60px;
+  text-align: center;
+}
+body.login .container img {
+  max-width: 300px;
+  max-height: 100px;
+  display: inline-block;
+}
+body.login .container .btn {
+  background-color: #388e3c;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+body * {
+  box-shadow: none!important;
+}
+body iframe {
+  width: 100%;
+}
+body .nomargin {
+  margin: 0px!important;
+}
+body .nopadding {
+  padding: 0px!important;
+}
+body .color {
+  color: #388e3c;
+}
+body .clear {
+  clear: both;
+}
+body .cabecera {
+  color: #B0B0B0;
+}
+body .cabecera h1 {
+  font-size: 45px;
+}
+body .subrayado {
+  background-color: #388e3c;
+  height: 3px;
+  width: 100px;
+}
+body .btn {
+  background-color: #388e3c !important;
+}
+body .btn:hover {
+  background-color: #388e3c !important;
+  opacity: 0.9;
+}
+body main {
+  padding-bottom: 40px;
+  border-top: 1px solid #DCDCDC;
+}
+body .mt15 {
+  margin-top: 15px!important;
+}
+body .mb15 {
+  margin-bottom: 15px!important;
+}
+body .mt30 {
+  margin-top: 30px!important;
+}
+body .mb30 {
+  margin-bottom: 30px!important;
+}
+body .mt50 {
+  margin-top: 50px!important;
+}
+body .mb50 {
+  margin-bottom: 50px!important;
+}
+body .mt70 {
+  margin-top: 70px!important;
+}
+body .mb70 {
+  margin-bottom: 70px!important;
+}
+body .pt15 {
+  padding-top: 15px!important;
+}
+body .pb15 {
+  padding-bottom: 15px!important;
+}
+body .pt30 {
+  padding-top: 30px!important;
+}
+body .pb30 {
+  padding-bottom: 30px!important;
+}
+body .pt50 {
+  padding-top: 50px!important;
+}
+body .pb50 {
+  padding-bottom: 50px!important;
+}
+body .pt70 {
+  padding-top: 70px!important;
+}
+body .pb70 {
+  padding-bottom: 70px!important;
+}
+#superior {
+  background-color: #595959!important;
+  height: 40px;
+  line-height: 40px;
+}
+#superior i {
+  height: 40px;
+  line-height: 40px;
+}
+header #cabecera {
+  background-color: white;
+  color: #8C8C8C;
+  margin-top: 5px;
+  overflow: hidden;
+}
+header #cabecera .datos {
+  height: auto;
+  overflow: hidden;
+}
+header #cabecera .datos table {
+  float: right;
+  width: auto;
+  margin-left: 15px;
+}
+header #cabecera .datos table tbody tr td i {
+  color: #388e3c;
+  font-size: 30px;
+  margin-right: 5px;
+}
+header #cabecera .datos table tbody tr .top {
+  vertical-align: top;
+  padding-top: 0px;
+}
+header #cabecera .datos table tbody tr .bottom {
+  vertical-align: bottom;
+  padding-bottom: 0px;
+}
+header #cabecera .brand-logo img {
+  max-height: 120px;
+}
+header #navegador {
+  background-color: white;
+  height: 90px;
+  box-shadow: none;
+}
+header #navegador * {
+  color: #3F3F3F;
+  line-height: 90px;
+}
+header #navegador #nav-mobile {
+  width: 100%;
+}
+header #navegador li {
+  position: relative;
+}
+header #navegador li a {
+  transition: all 0.4s;
+}
+header #navegador li a div {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: #388e3c;
+  opacity: 0;
+  transition: all 0.4s;
+}
+header #navegador li a i {
+  height: 90px;
+}
+header #navegador li.activo a,
+header #navegador li:hover a {
+  color: #388e3c;
+}
+header #navegador li.activo a div,
+header #navegador li:hover a div {
+  opacity: 1;
+}
+.carousel {
+  height: 450px;
+}
+.carousel .carousel-item {
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table!important;
+}
+.carousel .carousel-item .caption {
+  background-color: rgba(56, 142, 60, 0.85);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: auto;
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.carousel .carousel-item .caption * {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+.mercados {
+  background-color: #F6F6F6;
+}
+.marcas {
+  background-color: #ECECEC;
+  border-top: 1px solid #838383;
+}
+.marcas img {
+  max-width: 120px;
+}
+.empresa {
+  padding: 50px 0px;
+}
+.productos .miga {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.productos .miga p,
+.productos .miga a {
+  color: #595959;
+}
+.productos .menu-lateral {
+  margin-top: 30px;
+}
+.productos .menu-lateral .categoria a {
+  color: #388e3c;
+}
+.productos .menu-lateral .categoria a p {
+  border-bottom: 1px solid #93989E;
+  padding-bottom: 5px;
+}
+.productos .menu-lateral .menu-productos {
+  padding-left: 15px;
+}
+.productos .menu-lateral .menu-productos .producto a {
+  color: #333333;
+}
+.productos .menu-lateral .menu-productos .producto a p {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0px;
+}
+.productos .card {
+  text-align: center;
+  box-shadow: none;
+}
+.productos .card .imagen {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+}
+.productos .card .imagen:hover .capa {
+  opacity: 0.8;
+}
+.productos .card .imagen img {
+  max-height: 250px;
+}
+.productos .card .imagen .capa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  background-color: #388e3c;
+  transition: opacity 0.4s;
+  opacity: 0;
+}
+.productos .card .imagen .capa label {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  margin-top: -3px;
+}
+.productos .card .imagen .etiqueta {
+  position: absolute;
+  top: 15%;
+  left: -15%;
+  transform: rotate(-45deg) translateY(-50%);
+  color: white;
+  padding: 5px 50px;
+}
+.productos .card .imagen .rojo {
+  background-color: red;
+}
+.productos .card .imagen .verde {
+  background-color: green;
+}
+.productos .card .titulo {
+  background-color: white;
+  color: #388e3c;
+  font-size: 20px;
+  margin-top: 5px;
+  height: 60px;
+}
+.productos .card .titulo * {
+  margin-top: 0px;
+}
+.productos .card .titulo p {
+  margin-bottom: 0px;
+}
+.productos .card .titulo label {
+  color: #B0B0B0;
+  font-size: 18px;
+}
+.productos .detalles #grande,
+.productos .detalles .chica {
+  border: 1px solid #e8e8e8;
+}
+.productos .detalles h4 {
+  color: #388e3c;
+  margin-bottom: 0px;
+}
+.productos .detalles label {
+  font-size: 27px;
+}
+.productos .detalles .descripcion {
+  font-size: 17px;
+}
+.productos .detalles table {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.productos .detalles table td,
+.productos .detalles table th {
+  text-align: left;
+  border: 1px solid #B0B0B0;
+}
+.productos .detalles button {
+  background-color: #388e3c;
+  border: 1px solid #388e3c;
+  color: white;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 15px;
+}
+.productos .detalles button img {
+  max-width: 90px;
+}
+.productos .detalles .mercado-libre {
+  background-color: #FFE600;
+  border: 1px solid #FFE600;
+  padding-bottom: 0px;
+}
+.productos .detalles .mercado-pago {
+  background-color: #009EE3;
+  border: 1px solid #009EE3;
+  padding-bottom: 0px;
+}
+.productos form input[type=submit] {
+  background-color: white;
+  border: 1px solid #7F7F7F;
+  color: #7F7F7F;
+  padding: 5px 30px;
+  margin: auto;
+  width: 160px;
+  text-align: center;
+  float: right;
+}
+.productos .chica {
+  margin-top: 15px;
+}
+.productos #catalogo {
+  background-color: #388e3c;
+  border: 1px solid #388e3c;
+  color: white;
+  padding: 10px 40px;
+  font-size: 13px;
+}
+.productos .margen-sup {
+  margin-top: 50px;
+}
+.sucursales {
+  padding-top: 40px;
+}
+.sucursales i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.sucursales iframe {
+  height: 300px;
+}
+.revendedores {
+  padding-top: 40px;
+}
+.revendedores i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.revendedores .btn {
+  background-color: #388e3c !important;
+}
+.atencion {
+  padding-top: 40px;
+}
+.atencion i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.atencion .icono-atencion {
+  width: 20%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.atencion .icono-atencion .card {
+  box-shadow: none;
+}
+.solicitud table .foto {
+  max-width: 100px;
+  max-height: 100px;
+}
+.solicitud table i {
+  color: #388e3c !important;
+}
+.asesoramiento {
+  background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.asesoramiento .sinmargen {
+  margin-bottom: 0px;
+}
+.asesoramiento .btn {
+  background-color: #388e3c;
+  border-radius: 0px;
+}
+#contacto {
+  padding-top: 30px;
+}
+#contacto iframe {
+  height: 350px;
+}
+#contacto .aviso {
+  padding: 10px;
+  background-color: #F9F9F9;
+}
+#contacto .aviso p {
+  margin: 0px;
+}
+#contacto label[for=aceptar] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#contacto button {
+  background-color: white;
+  color: #388e3c;
+  border: 1px solid #388e3c;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+.page-footer {
+  background-color: #303030;
+  padding-top: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.page-footer #logo-footer {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+}
+.page-footer a {
+  color: white;
+}
+.page-footer h5 {
+  font-size: 18px;
+  color: #388e3c;
+}
+.page-footer .material-icons,
+.page-footer .fa {
+  color: #388e3c;
+  font-size: 24px;
+}
+.page-footer ul li {
+  width: 50%;
+  float: left;
+  font-size: 15px;
+}
+.page-footer table tr td {
+  padding: 5px;
+}
+.page-footer .footer-copyright {
+  background-color: #272727;
+}
+@media only screen and (max-width: 600px) {
+  #navegador {
+    height: auto!important;
+  }
+  #navegador * {
+    line-height: 48px!important;
+  }
+  #mobile-demo a {
+    line-height: 48px!important;
+  }
+  .brand-logo img {
+    max-height: 48px;
+  }
+  .carousel-slider {
+    height: 150px!important;
+    min-height: 150px!important;
+  }
+  .carousel-slider .carousel-item {
+    height: 150px!important;
+    min-height: 150px!important;
+  }
+  .icono-atencion {
+    width: 100%!important;
+  }
+  .formas ul {
+    list-style-position: inside;
+  }
+  .productos table {
+    width: 100%!important;
+  }
+}
